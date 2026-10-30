@@ -96,6 +96,18 @@
 
     // Le CSS s'applique aussi aux éléments ajoutés ensuite, sans attendre un scan.
     GM_addStyle(css);
+    GM_addStyle(`
+        .mto-nav-flight-visual,
+        .mto-nav-flight img,
+        .mto-nav-flight canvas {
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+
+        .mto-nav-flight {
+            background: #171720 !important;
+        }
+    `);
 
     function modifierAttribut(element, nom, valeur) {
         if (element.getAttribute(nom) !== valeur) {

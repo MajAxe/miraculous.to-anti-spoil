@@ -12,7 +12,7 @@ Un script Tampermonkey pour naviguer sur [Miraculous.to](https://miraculous.to/)
 - Remplace le titre de l’onglet par un intitulé neutre.
 - Masque également les synopsis, commentaires et actualités par défaut.
 
-## Installation sur Firefox
+## Installation sur Firefox/Chrome
 
 1. Installe [Tampermonkey](https://www.tampermonkey.net/) si nécessaire.
 2. Ouvre le fichier [`miraculous-anti-spoil.user.js`](./miraculous_anti_spoil.user.js) et copie tout son contenu.
@@ -45,14 +45,6 @@ Le script ne collecte ni ne transmet de données. Il ne charge aucune bibliothè
 - Le filtrage dépend de la structure du site et peut nécessiter une mise à jour si celle-ci change.
 - Le script masque les images de présentation ; la vidéo reste visible pendant la lecture.
 - Les sélecteurs de cette première version ont été vérifiés sur le HTML du site. Le fonctionnement réel dans Firefox reste à valider.
-
-## Signaler un problème
-
-Ouvre une issue en précisant :
-
-- la page concernée ;
-- les versions de Firefox et de Tampermonkey ;
-- le comportement constaté.
 
 ## Licence
 

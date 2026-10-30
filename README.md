@@ -15,7 +15,7 @@ Un script Tampermonkey pour naviguer sur [Miraculous.to](https://miraculous.to/)
 ## Installation sur Firefox
 
 1. Installe [Tampermonkey](https://www.tampermonkey.net/) si nécessaire.
-2. Ouvre le fichier [`miraculous-anti-spoil.user.js`](./miraculous-anti-spoil.user.js) et copie tout son contenu.
+2. Ouvre le fichier [`miraculous-anti-spoil.user.js`](./miraculous_anti_spoil.user.js) et copie tout son contenu.
 3. Dans le menu Tampermonkey, sélectionne **Créer un nouveau script**.
 4. Remplace entièrement le code proposé par le contenu copié.
 5. Enregistre avec **Ctrl+S**.
